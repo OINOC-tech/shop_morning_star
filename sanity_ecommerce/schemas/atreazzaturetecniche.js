@@ -1,6 +1,6 @@
 export default {
-    name: 'product',
-    title: 'Prodotti',
+    name: 'attrezzaturetecniche',
+    title: 'Attrezzature Tecniche',
     type: 'document',
     fields: [
       {

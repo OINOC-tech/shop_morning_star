@@ -1,52 +1,52 @@
 export default {
     name: 'banner',
-    title: 'Banner',
+    title: 'Banner_Logo',
     type: 'document',
     fields: [
         {
             name: 'image',
-            title: 'Image',
+            title: 'Immagine',
             type: 'image',
             options: {
                 hotspot: true,
             },
         },
-        {
+        /* {
             name: 'buttonText',
-            title: 'ButtonText',
+            title: 'Testo_Pulsante',
             type: 'string',
-        },
-        {
+        }, */
+       /*  {
             name: 'product',
-            title: 'Product',
+            title: 'Prodotto',
             type: 'string',
-        },
-        {
+        }, */
+        /* {
             name: 'desc',
             title: 'Desc',
             type: 'string',
-        },
+        }, */
         {
             name: 'smallText',
-            title: 'SmallText',
+            title: 'Testo_Piccolo',
             type: 'string',
         },
-        {
+        /* {
             name: 'midText',
-            title: 'MidText',
+            title: 'Testo_Medio',
             type: 'string',
-        },
-        {
+        }, */
+        /* {
             name: 'largeText1',
-            title: 'LargeText1',
+            title: 'Testo_Largo_1',
             type: 'string',
         },
         {
             name: 'largeText2',
-            title: 'LargeText2',
+            title: 'Testo_Largo_2',
             type: 'string',
-        },
-        {
+        }, */
+        /* {
             name: 'discount',
             title: 'Discount',
             type: 'string',
@@ -55,6 +55,6 @@ export default {
             name: 'saleTime',
             title: 'SaleTime',
             type: 'string',
-        },
+        }, */
     ],
   };

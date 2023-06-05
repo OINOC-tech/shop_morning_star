@@ -1,6 +1,6 @@
 export default {
-    name: 'product',
-    title: 'Prodotti',
+    name: 'productagricoli',
+    title: 'Prodotti Agricoli',
     type: 'document',
     fields: [
       {
