@@ -120,7 +120,18 @@ span.text-red {
   width: 100%;
 }
 
+
+
+
 .product-card {
+  cursor: pointer;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+  color: #324d67;
+
+}
+
+.productAgricoli-card {
   cursor: pointer;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
@@ -139,7 +150,18 @@ span.text-red {
   transition: transform 0.5s ease;
 }
 
+.productAgricoli-image {
+  border-radius: 15px;
+  background-color: #ebebeb;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+
 .product-name {
+  font-weight: 500;
+}
+
+.productAgricoli-name {
   font-weight: 500;
 }
 
@@ -227,6 +249,12 @@ span.text-red {
 
 .products-heading {
   text-align: center;
+  margin: 40px 0px;
+  color: orange;
+
+}
+.productAgricoli-heading {
+  text-align: left;
   margin: 40px 0px;
   color: orange;
 
