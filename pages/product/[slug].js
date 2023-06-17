@@ -111,7 +111,8 @@ export const getStaticProps = async ({ params: { slug } }) => {
     const bannerData = await client.fetch(bannerQuery);
 
     return {
-        props: { products, product }
+        props: { products, product },
+        revalidate: 5,
     }
 }
 
